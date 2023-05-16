@@ -19,9 +19,9 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   handleNavClick("home");
                 }}
               >
-                Simone
+                Vinicio Lema
               </a>
-              . All Rights Reserved.
+              . Todos los derechos reservados.
             </p>
           </div>
           <div className="col-lg-6">
@@ -33,19 +33,10 @@ const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
                   data-bs-target="#terms-policy"
                   href="#terms-policy"
                 >
-                  Terms &amp; Policy
+                  Terminos &amp; condiciones
                 </a>
               </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  data-bs-toggle="modal"
-                  data-bs-target="#disclaimer"
-                  href="#disclaimer"
-                >
-                  Disclaimer
-                </a>
-              </li>
+             
             </ul>
           </div>
         </div>

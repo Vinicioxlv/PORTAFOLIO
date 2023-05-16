@@ -20,7 +20,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            Know Me More
+            Sobre mi
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -33,8 +33,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
-              Developer
+              Soy <span className="text-primary">Vinicio Lema,</span> Ingeniero en sistemas Administrativos
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
               I help you build brand for your business at an affordable price.
@@ -59,18 +58,18 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 }
               >
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Nombre:</span>Vinicio Lema
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:chat@simone.com">vinicioxavierlv@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Edad:</span>31
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">De:</span>Guayaquil,
+                  Ecuador
                 </li>
               </ul>
               <a
@@ -78,7 +77,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 download
                 className="btn btn-primary rounded-pill"
               >
-                Download CV
+                Descargar CV
               </a>
             </div>
           </div>
@@ -103,7 +102,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span>10</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Years Experiance
+                  Años de experiencia
                 </p>
               </div>
             </div>
@@ -115,10 +114,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>250</span>+
+                  <span>30</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Happy Clients
+                  Clientes felices
                 </p>
               </div>
             </div>
@@ -130,10 +129,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>650</span>+
+                  <span>60</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Done
+                  Proyectos hechos
                 </p>
               </div>
             </div>

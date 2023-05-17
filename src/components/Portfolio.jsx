@@ -17,16 +17,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "Landing Page Disponib",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Landign page de agencia de marketing digital y desarrollo de software con diseño responsive",
       client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "HTML5 y CSS3",
       industry: "Art & Design",
-      date: "July 16, 2019",
+      date: "Nov 26, 2022",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.disponib.com",
+        link: "https://vinicioxlv.github.io/LandignUcamp/?classId=1986888c-f5d6-4a02-9d5a-ce0407356dac&assignmentId=9e1427ce-6236-4298-aa4d-d8d797ba0c92&submissionId=f0a8a6de-dba2-558a-027d-cbce0c25361b",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -43,16 +43,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.BRAND],
     },
     {
-      title: "Project Title 2",
+      title: "App crud de tareas",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "App crud de tareas usando javascript, manejo del DOM y local storage",
       client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "HTML5, CSS3, JAVASCRIPT",
       industry: "Art & Design",
-      date: "July 16, 2019",
+      date: "8 de enero del 2023",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.apptareas.com",
+        link: "https://vinicioxlv.github.io/crudActividades/?classId=1986888c-f5d6-4a02-9d5a-ce0407356dac&assignmentId=084ca4e8-2330-4b80-98eb-f31bf0437fda&submissionId=6ff7aee6-bc4b-bb5b-bd85-711b8e11654e#",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -69,16 +69,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.DESIGN],
     },
     {
-      title: "Project Title 3",
+      title: "Tablero de datos",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Trabajo realizado en equipo se consumio la apinews usando fetch se mostraron en graficas los resultados usando la libreria chart.js ",
       client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "HTML5, CSS3, Javascript, Chart.js, consumo de API",
       industry: "Art & Design",
-      date: "July 16, 2019",
+      date: "Febrero 13, 2023",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.dashboard.com",
+        link: "https://team1proyecto3.github.io/Proyecto3team1/",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -95,16 +95,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.PHOTOS],
     },
     {
-      title: "Project Title 4",
+      title: "Restaurante App",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "App de reastautante desarrollanda en react, cuenta con una landign page con la descripcion del servicio y una seccion par reservar que se conencta oon Firebase ",
       client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "HTML5, CSS3, React, Firebase",
       industry: "Art & Design",
-      date: "July 16, 2019",
+      date: "5 de Marzo del 2023",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.reastauranteapp.com",
+        link: "https://visionary-bunny-976983.netlify.app/?classId=1986888c-f5d6-4a02-9d5a-ce0407356dac&assignmentId=e6753f12-93f1-4ef5-b496-57684d62467d&submissionId=4957392f-be08-e39b-a83c-23245be27798",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -121,16 +121,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.BRAND, filters.PHOTOS],
     },
     {
-      title: "Project Title 5",
+      title: "Ecommerce Voreas",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Aplicacion de comercio electrónico full stack integre node js, mongodb, express, react. Tambien se uso la pasarela de pagos paypal",
       client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      technologies: "React, node, express, mongodb, pasarela de pagos Paypal",
       industry: "Art & Design",
-      date: "July 16, 2019",
+      date: "6 de Mayo del 2023",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "www.voreas.com",
+        link: "https://store-front-virid.vercel.app/?classId=1986888c-f5d6-4a02-9d5a-ce0407356dac&assignmentId=53559519-b7e6-4054-9038-f99157a739dd&submissionId=5275f500-021c-f286-e39e-b03ed856417f",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
@@ -146,58 +146,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.DESIGN],
     },
-    {
-      title: "Project Title 6",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-6.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.BRAND],
-    },
-    {
-      title: "Project Title 7",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/project-7.jpg",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: [filters.DESIGN, filters.PHOTOS],
-    },
+   
   ];
 
   // initialize an Isotope object with configs
@@ -248,7 +197,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               }
             >
               {" "}
-              My Work
+             Mi trabajo
               <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
             </p>
           </div>

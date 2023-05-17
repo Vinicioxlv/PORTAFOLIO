@@ -44,7 +44,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                 Localizado en Guayaquil, Ecuador.
+                 Me encuentro en Guayaquil, Ecuador.
                 </p>
                 <a
                   href="#about"

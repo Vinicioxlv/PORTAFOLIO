@@ -90,7 +90,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         (darkTheme ? " text-white" : "")
                       }
                     >
-                      Project Info:
+                      Descripción del proyecto:
                     </h4>
                     <p>{projectDetails?.projectInfo}</p>
                     <h4
@@ -99,14 +99,14 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         (darkTheme ? " text-white" : "")
                       }
                     >
-                      Project Details:
+                      Detalles:
                     </h4>
                     <ul
                       className={
                         "list-style-2 " + (darkTheme ? "list-style-light" : "")
                       }
                     >
-                      <li>
+                      {/* <li>
                         <span
                           className={
                             "text-dark font-weight-600 me-2" +
@@ -116,7 +116,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           Client:
                         </span>
                         {projectDetails?.client}
-                      </li>
+                      </li> */}
                       <li>
                         <span
                           className={
@@ -124,11 +124,11 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             (darkTheme ? " text-white" : "")
                           }
                         >
-                          Technologies:
+                          Tecnologías:
                         </span>
                         {projectDetails?.technologies}
                       </li>
-                      <li>
+                      {/* <li>
                         <span
                           className={
                             "text-dark font-weight-600 me-2" +
@@ -138,7 +138,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           Industry:
                         </span>
                         {projectDetails?.industry}
-                      </li>
+                      </li> */}
                       <li>
                         <span
                           className={
@@ -146,7 +146,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                             (darkTheme ? " text-white" : "")
                           }
                         >
-                          Date:
+                          Fecha:
                         </span>
                         {projectDetails?.date}
                       </li>
@@ -175,7 +175,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           (darkTheme ? " text-white" : "")
                         }
                       >
-                        Share:
+                        Compartir:
                       </div>
                       <div className="col-auto">
                         <ul

@@ -129,23 +129,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   Portafolio
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link "
-                  smooth
-                  duration={500}
-                  style={{ cursor: "pointer" }}
-                  activeClass="active"
-                  spy
-                  to="testimonial"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setIsNavModalClose(true);
-                  }}
-                >
-                  Testimonios
-                </Link>
-              </li>
+              
               <li className="nav-item">
                 <Link
                   className="nav-link "

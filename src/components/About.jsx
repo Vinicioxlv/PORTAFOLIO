@@ -33,7 +33,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              Soy <span className="text-primary">Vinicio Lema,</span> Ingeniero en sistemas Administrativos
+              Soy <span className="text-primary">Vinicio Lema,</span> Emprendedor tecnológico
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
               I help you build brand for your business at an affordable price.

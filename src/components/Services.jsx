@@ -4,35 +4,27 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-palette",
-    },
-    {
-      name: "Web Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-desktop",
-    },
-    {
-      name: "UI/UX Design",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-pencil-ruler",
-    },
-    {
-      name: "App Design & Develop",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      icon: "fas fa-paint-brush",
-    },
-    {
-      name: "Business Analysis",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Asesoría Empresarial",
+      desc: "Asesoramiento en el proceso de implementación de sistemas CRM, ERP, CHAT BOTS.",
       icon: "fas fa-chart-area",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Marketing Digital",
+      desc: "Servicios de creación de contenido en redes sociales y campañas de anuncios en meta",
       icon: "fas fa-bullhorn",
     },
+    {
+      name: "Desarrollo web y móvil",
+      desc: "Desarrollo software personalizado usando tecnologías modernas como React, node JS, Express, mongo db, Flutter, React Native.",
+      icon: "fas fa-desktop",
+    },
+    {
+      name: " Diseño UX / UI ",
+      desc: "Estudios de experiencia de usuario y diseño de prototipos en FIGMA y Adobe XD.",
+      icon: "fas fa-pencil-ruler",
+    }
+   
+    
   ];
 
   return (
@@ -57,7 +49,7 @@ const Services = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            What I Do?
+            Servicios
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>

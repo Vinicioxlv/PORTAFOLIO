@@ -4,71 +4,90 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2000 - 2004",
-      title: "Computer Science",
-      place: "International University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2012 - 2017",
+      title: "Ingenieria en sistemas administrativos",
+      place: "Universidad de Guayaquil",
+      desc: "Carrera híbrida entre administración de empresas, marketing, finanzas y desarrollo de software",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2018 - 2019",
+      title: "Scrum Master",
+      place: "Telefónica Educación Digital",
+      desc: "Gestíon de proyectos tecnológicos aplicando metodologías ágiles",
     },
     {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2022 - 2023",
+      title: "Desarrollo web full stack",
+      place: "UTEL - UCAMP",
+      desc: "Bootcamp de desarrollo web usando html5, css, javasript, react, node js, express y mongodb",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2012 - 2013",
-      title: "Jr. UI UX Designer",
-      place: "Themeforest",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2010 - 2013",
+      title: "Analista de compras públicas",
+      place: "SUMEQUIPVEGA",
+      desc: "Elaborar los pliegos de contratación en el sistema USHAY y llevar un seguimiento en el SERCOP",
     },
     {
-      yearRange: "2014 - 2016",
-      title: "Jr. Product Designer",
-      place: "Dribbble",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2014 - 2022",
+      title: "Jefe de Sucursal",
+      place: "SUMEQUIPVEGA",
+      desc: "Elaborar el plan estrategico, definir y dar seguimiento a los objetivos de ventas, logisticos, cobranzas ",
     },
     {
-      yearRange: "2017 - 2019",
-      title: "Product Designer",
-      place: "Adobe",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2022 - Actualidad",
+      title: "CEO",
+      place: "DISPONIB",
+      desc: "Director de Disponib agencia de marketing Digital y desarrollo de software",
     },
   ];
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
+      name: "Finanzas",
+      percent: 90,
+    },
+    {
+      name: "Marketing digital",
+      percent: 90,
+    },
+    
+    {
+      name: "JavaScript",
+      percent: 85,
+    },
+    {
+      name: "Python",
+      percent: 60,
     },
     {
       name: "HTML/CSS",
       percent: 95,
     },
-    {
-      name: "JavaScript",
-      percent: 80,
-    },
+    
     {
       name: "React JS",
       percent: 70,
     },
     {
-      name: "Angular Js",
-      percent: 60,
+      name: "Node JS",
+      percent: 70,
     },
     {
-      name: "Bootstrap",
-      percent: 99,
+      name: "Node JS - Express",
+      percent: 70,
     },
+    {
+      name: "Mongo db",
+      percent: 70,
+    },
+    {
+      name: "Wordpress",
+      percent: 80,
+    },
+    
   ];
 
   return (
@@ -107,7 +126,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
               }
             >
-              My Education
+              Educación
             </h2>
             {educationDetails.length > 0 &&
               educationDetails.map((value, index) => (
@@ -140,7 +159,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                 "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
               }
             >
-              My Experience
+              Experiencia
             </h2>
             {experienceDetails.length > 0 &&
               experienceDetails.map((value, index) => (
@@ -173,7 +192,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             "text-6 fw-600 mt-4 mb-4 " + (darkTheme ? "text-white" : "")
           }
         >
-          My Skills
+          Mis habilidades
         </h2>
         <div className="row gx-5">
           {skills.length > 0 &&

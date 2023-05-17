@@ -25,7 +25,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/profile.png"
-                title="I'm Simone"
+                title="Soy Vinicio Lema"
                 alt="profile"
               />
             </span>

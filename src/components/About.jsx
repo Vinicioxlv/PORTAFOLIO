@@ -42,7 +42,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               Ecommerce y software personalizado.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Soy ingeniero en sistemas administrativos de profesión y uno de los fundodaores de Disponib 
+              Soy ingeniero en sistemas administrativos de profesión y uno de los fundadores de Disponib 
               agencia de Marketing Digital y Desarrollo de Software. 
             </p>
           </div>

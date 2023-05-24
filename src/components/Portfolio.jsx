@@ -37,8 +37,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-1.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/project-1.2.jpg",
+        
       ],
       categories: [filters.BRAND],
     },
@@ -89,8 +89,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-3.jpg",
       sliderImages: [
-        "images/projects/project-3.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/project-3.2.jpg",
+        
       ],
       categories: [filters.PHOTOS],
     },
@@ -115,8 +115,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-4.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-4.jpg",
+        "images/projects/project-4.2.jpg"
+        
       ],
       categories: [filters.BRAND, filters.PHOTOS],
     },
@@ -141,9 +141,33 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/project-5.jpg",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/project-5.2.jpg",
       ],
+      categories: [filters.DESIGN],
+    },
+    {
+      title: "Challenge Connect",
+      projectInfo:
+        "Plataforma web que conecta personas con conocimientos en tecnología (desarrollo web, movil, ciencia de datos, video juegos) sin experiencia con empresas que requieran talento  por medio de retos reales personalizados",
+      client: "Challenge Connect",
+      technologies: "Bubble herramienta no code",
+      industry: "Art & Design",
+      date: "20 de Mayo del 2023",
+      url: {
+        name: "www.challengeconnect.com",
+        link: "https://connect-challengue.bubbleapps.io/version-test?debug_mode=true",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/project-6.jpg",
+      sliderImages: [
+        "images/projects/project-6.2.jpg",
+              ],
       categories: [filters.DESIGN],
     },
    
@@ -267,7 +291,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             <h5 className="text-white fw-400">
                               {project.title}
                             </h5>
-                            <span className="text-light">Category</span>
+                            
                           </div>
                         </div>
                       </div>

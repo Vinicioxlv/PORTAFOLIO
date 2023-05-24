@@ -46,12 +46,12 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const skills = [
     {
-      name: "Finanzas",
-      percent: 90,
+      name: "Finanzas y administración de Empresas",
+      percent: 95,
     },
     {
       name: "Marketing digital",
-      percent: 90,
+      percent: 95,
     },
     
     {
@@ -64,7 +64,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "HTML/CSS",
-      percent: 95,
+      percent: 90,
     },
     
     {
@@ -113,7 +113,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Resume
+            Resumen
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -230,7 +230,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             href={resumeFile}
             download
           >
-            Download CV
+            Descargar CV
             <span className="ms-1">
               <i className="fas fa-download" />
             </span>

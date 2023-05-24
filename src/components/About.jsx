@@ -33,18 +33,17 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              Soy <span className="text-primary">Vinicio Lema,</span> Emprendedor tecnológico
+              Hola mi nombre es  <span className="text-primary">Vinicio Lema</span>, soy emprendedor tecnológico
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              Mi misión es ayudar a las medianas y grandes empresas  a mejorar su gestión
+              administrativa, contable y comercial,  con la implemetación de sistemas
+              de información que se adpaten a sus necesidades entre CRM, ERP, Chatbots, 
+              Ecommerce y software personalizado.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+              Soy ingeniero en sistemas administrativos de profesión y uno de los fundodaores de Disponib 
+              agencia de Marketing Digital y Desarrollo de Software. 
             </p>
           </div>
           {/* About me content end */}
@@ -114,7 +113,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>30</span>+
+                  <span>15</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Clientes felices
@@ -129,7 +128,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>60</span>+
+                  <span>20</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Proyectos hechos
@@ -144,10 +143,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>38</span>
+                  <span>6</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Get Awards
+                  Reconocimientos
                 </p>
               </div>
             </div>

@@ -15,6 +15,9 @@ import TermsAndConditions from "./components/TermsAndConditions";
 import Disclaimer from "./components/Disclaimer";
 import PreLoader from "./components/Preloader";
 import { Tooltip } from "./components/Tooltip";
+import { WhatsAppWidget } from 'react-whatsapp-widget';
+import 'react-whatsapp-widget/dist/index.css'; // Importa los estilos del componente si es necesario
+ // Importa los estilos del componente si es necesario
 
 function App() {
   const classicHeader = commonConfig.classicHeader;
@@ -104,7 +107,8 @@ function App() {
           ></Footer>
         </div>
         {/* back to top */}
-        <Tooltip text="Back to Top" placement="left">
+       
+        {/* <Tooltip text="Back to Top" placement="left">
           <span
             id="back-to-top"
             className="rounded-circle"
@@ -115,7 +119,13 @@ function App() {
           >
             <i className="fa fa-chevron-up"></i>
           </span>
-        </Tooltip>
+        </Tooltip><br></br> */}
+        <WhatsAppWidget
+          phoneNumber="+593986426729" // Reemplaza con tu número de teléfono de WhatsApp
+          textReplyTime="Generalmente respondo en un plazo de 24 horas" // Opcional: Mensaje que indica el tiempo de respuesta
+          companyName="Mi Empresa" // Opcional: Nombre de tu empresa o sitio web
+          message="Hola, estoy interesado en obtener más información" // Opcional: Mensaje predefinido al abrir WhatsApp
+        />
 
         <TermsAndConditions darkTheme={darkTheme}></TermsAndConditions>
         <Disclaimer darkTheme={darkTheme}></Disclaimer>

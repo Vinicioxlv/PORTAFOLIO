@@ -122,9 +122,9 @@ function App() {
         </Tooltip><br></br> */}
         <WhatsAppWidget
           phoneNumber="+593986426729" // Reemplaza con tu número de teléfono de WhatsApp
-          textReplyTime="Generalmente respondo en un plazo de 24 horas" // Opcional: Mensaje que indica el tiempo de respuesta
+          textReplyTime="Generalmente respondo en un plazo de 4 horas" // Opcional: Mensaje que indica el tiempo de respuesta
           companyName="Mi Empresa" // Opcional: Nombre de tu empresa o sitio web
-          message="Hola, estoy interesado en obtener más información" // Opcional: Mensaje predefinido al abrir WhatsApp
+          message="Hola, revise tu portafolio estoy interesado (a) en obtener más información. Mi nombre es: " // Opcional: Mensaje predefinido al abrir WhatsApp
         />
 
         <TermsAndConditions darkTheme={darkTheme}></TermsAndConditions>

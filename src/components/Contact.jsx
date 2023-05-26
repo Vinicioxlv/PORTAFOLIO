@@ -75,7 +75,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
             }
           >
             {" "}
-            Contaáctame
+            Contáctame
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
